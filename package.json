@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CycSpring/dsh-FathomSearch.git"
+    "url": "git+https://github.com/CycSpring/dsh-fathom.git"
   },
   "bugs": {
-    "url": "https://github.com/CycSpring/dsh-FathomSearch/issues"
+    "url": "https://github.com/CycSpring/dsh-fathom/issues"
   },
-  "homepage": "https://github.com/CycSpring/dsh-FathomSearch#readme",
+  "homepage": "https://github.com/CycSpring/dsh-fathom#readme",
   "engines": {
     "node": ">=22"
   },
