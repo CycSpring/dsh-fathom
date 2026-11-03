@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Fathom Search">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b3b63"/>
+      <stop offset="1" stop-color="#0a1c2e"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#sea)"/>
+  <g fill="none" stroke="#5fd0c8" stroke-width="3" stroke-linecap="round">
+    <path d="M32 11v30"/>
+    <path d="M20 15h24"/>
+  </g>
+  <g fill="none" stroke="#f2b545" stroke-width="3" stroke-linecap="round">
+    <path d="M40 23h6"/>
+    <path d="M40 30h4"/>
+    <path d="M40 37h6"/>
+  </g>
+  <g fill="none" stroke="#5fd0c8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 41l-6 6 6 6 6-6z"/>
+  </g>
+</svg>

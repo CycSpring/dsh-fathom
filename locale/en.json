@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Fathom Search",
+    "description": "Adds Fathom Search tools — multi-engine web and vertical search (GitHub, Hugging Face, arXiv, Semantic Scholar, PubMed, Wikidata, Wikipedia, Hacker News, Grok/X), image search, page extraction and quota checks — with multi-key rotation and failover. The built-in web_search is left untouched."
+  }
+}

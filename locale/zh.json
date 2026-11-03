@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Fathom Search 搜索",
+    "description": "为 Harness 增加 Fathom Search 工具：多引擎网页与垂直搜索（GitHub、Hugging Face、arXiv、Semantic Scholar、PubMed、Wikidata、维基百科、Hacker News、Grok/X）、图片搜索、正文提取与额度查询，支持多 Key 轮换与故障转移；内置 web_search 不做改动。"
+  }
+}

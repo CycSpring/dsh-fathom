@@ -1,0 +1,42 @@
+{
+  "name": "@local/dsh-fathom",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Fathom Search tools for DeepSeek Harness: multi-engine web/vertical search, image search, page extraction and quota checks through fathomsearch.xyz, with key rotation and failover. The built-in web_search is never replaced. | DeepSeek Harness 的 Fathom Search 工具：多引擎网页/垂直搜索、图片搜索、正文提取与额度查询，支持多 Key 轮换与故障转移；内置 web_search 永不替换。",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib/lib.js",
+    "lib/tools.js",
+    "lib/schema.js",
+    "cordis.patch.yml",
+    "locale/en.json",
+    "locale/zh.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "fathom",
+    "web-search",
+    "tool"
+  ]
+}

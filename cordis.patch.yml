@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-fathom
+      name: '@local/dsh-fathom'
