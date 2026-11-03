@@ -21,6 +21,22 @@ whatever provider it already had.
 | `fathom_usage` | `/me` | Remaining quota, rate limit, cost per call |
 | `fathom_engines` | `/mega/engines` | Canonical engine names and circuit state |
 
+## Install
+
+Package name: **`@cycspring/dsh-fathom`**. The bundle row it inserts is
+`dsh-fathom` (see `cordis.patch.yml`) — one row, no other plugins required.
+
+From a local checkout, point the plugin manager at the package directory:
+
+```
+plugin_manager  action: install_bundle  target: /absolute/path/to/dsh-fathom
+```
+
+`target` is the directory holding `package.json`, so any clone works; there is
+no npm publish required and nothing else to install first. This bundle imports
+no `@deepseek-ai/*` packages, which is what lets a linked checkout load at all
+(see Notes).
+
 ## Setup
 
 Save a key from <https://fathomsearch.xyz/dashboard> under the credential name

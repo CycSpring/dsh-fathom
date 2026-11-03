@@ -1,5 +1,5 @@
 /**
- * `@local/dsh-fathom` — Fathom Search tools for the DeepSeek Harness.
+ * `@cycspring/dsh-fathom` — Fathom Search tools for the DeepSeek Harness.
  *
  * The plugin is additive: it registers five model tools against the Fathom
  * Search REST API and one system-prompt section, and touches nothing else. No
